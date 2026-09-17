@@ -1,0 +1,52 @@
+{
+  "arcs": [
+    {
+      "id": 1,
+      "region": "kanto_johto",
+      "antagonist": "Team Rocket",
+      "theme": "Ambición y control de Pokémon mediante la fuerza",
+      "gym_count_full": 16,
+      "gym_count_narrative_route": 5
+    },
+    {
+      "id": 2,
+      "region": "hoenn",
+      "antagonist": "Team Magma / Team Aqua",
+      "theme": "Equilibrio entre tierra y mar, extremismo ambiental",
+      "gym_count_full": 8,
+      "gym_count_narrative_route": 3
+    },
+    {
+      "id": 3,
+      "region": "sinnoh",
+      "antagonist": "Team Galaxia",
+      "theme": "Origen del tiempo, espacio y antimateria",
+      "gym_count_full": 8,
+      "gym_count_narrative_route": 3
+    },
+    {
+      "id": 4,
+      "region": "teselia",
+      "antagonist": "Team Plasma",
+      "theme": "Ética humano-Pokémon, verdad e ideales",
+      "gym_count_full": 8,
+      "gym_count_narrative_route": 3
+    },
+    {
+      "id": 5,
+      "region": "kalos",
+      "antagonist": "Team Flare",
+      "theme": "Vida eterna, destrucción selectiva, Megaevolución",
+      "gym_count_full": 8,
+      "gym_count_narrative_route": 4
+    },
+    {
+      "id": 6,
+      "region": "septimo_territorio",
+      "antagonist": "Orden del Vacío",
+      "theme": "Reinicio del pacto legendario, libre albedrío",
+      "gym_count_full": 0,
+      "gym_count_narrative_route": 0
+    }
+  ]
+}

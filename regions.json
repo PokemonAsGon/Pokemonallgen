@@ -1,0 +1,17 @@
+{
+  "regions": [
+    {"id": "kanto_johto", "name": "Kanto/Johto", "arc": 1, "biome": "templado"},
+    {"id": "hoenn", "name": "Hoenn", "arc": 2, "biome": "tropical/archipiélago"},
+    {"id": "sinnoh", "name": "Sinnoh", "arc": 3, "biome": "montañoso/nevado"},
+    {"id": "teselia", "name": "Teselia", "arc": 4, "biome": "urbano/industrial"},
+    {"id": "kalos", "name": "Kalos", "arc": 5, "biome": "costero/moderno"},
+    {"id": "septimo_territorio", "name": "Séptimo Territorio", "arc": 6, "biome": "desconocido"}
+  ],
+  "connections": [
+    {"from": "kanto_johto", "to": "hoenn", "method": "Ferri (Estrecho Índigo)", "unlock_condition": "Arco 1: 4º gimnasio completado"},
+    {"from": "hoenn", "to": "sinnoh", "method": "Túnel de montaña (Cordillera Coronada) + HM Escalar", "unlock_condition": "Inicio del Arco 3"},
+    {"from": "sinnoh", "to": "teselia", "method": "Línea Maglev", "unlock_condition": "Inicio del Arco 4"},
+    {"from": "teselia", "to": "kalos", "method": "Eurotúnel Kalos", "unlock_condition": "Inicio del Arco 5"},
+    {"from": "kalos", "to": "septimo_territorio", "method": "Desconocido / revelado en trama", "unlock_condition": "Fin del Arco 5"}
+  ]
+}
